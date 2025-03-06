@@ -2,6 +2,7 @@
 #70340c
 #b9b9b9
 #ffb98a
+#f8c19d
 #0B192C
 #000
 
@@ -9,9 +10,9 @@
 
  <div
                 class="page2 md:mt-[50px] md:h-[596px] md:w-[1300px] rounded-[39px] bg-red-300 flex flex-col justify-center items-center relative overflow-hidden">
-                <p id="roboto" class="font-700 md:text-[32px]">Top Cricket Betting Sites to Bet Smarter and Win Bigger!!
+                <p id="roboto" class="font-[700] md:text-[32px]">Top Cricket Betting Sites to Bet Smarter and Win Bigger!!
                 </p>
-                <p class="text-[16px] font-600 w-[45%] text-center md:mt-4">Explore the most trusted cricket betting
+                <p class="text-[16px] font-[600] w-[45%] text-center md:mt-4">Explore the most trusted cricket betting
                     platforms, handpicked for their unbeatable bonuses, secure transactions, and user-friendly
                     interfaces.</p>
                 <div class="box h-[196px] w-[373px] bg-white flex">
@@ -42,8 +43,8 @@
             <div
                 class="absolute -top-[10%] left-0 h-[30%] w-full  bg-gradient-to-b from-[#ffb98a] via-white to-white flex items-center justify-center">
             </div>
-            <p class="text-[32px] font-700 mt-[30px] z-2">Top Indian Cricket Betting Bonuses You Can’t Miss!</p>
-            <p class="text-[16px] font-600 w-[55%] text-center z-2">Grab the best cricket betting bonuses tailored
+            <p class="text-[32px] font-[700] mt-[30px] z-2">Top Indian Cricket Betting Bonuses You Can’t Miss!</p>
+            <p class="text-[16px] font-[600] w-[55%] text-center z-2">Grab the best cricket betting bonuses tailored
                 for
                 Indian players! From free bets to exclusive deposit offers, find unbeatable deals to enhance your
                 betting experience during every match.</p>
@@ -63,7 +64,7 @@
                             class="bg-[#0B192C] w-[10%] h-[20px] p-4 transform -skew-x-12 flex justify-center items-center rounded-[4px]">
                             <p class="text-[#fff]">Raja Bets</p>
                         </div>
-                        <p class="font-700 text-[28px] italic w-[30%]">Premier League Cricket Betting</p>
+                        <p class="font-[700] text-[28px] italic w-[30%]">Premier League Cricket Betting</p>
                         <div class="flex gap-4">
                             <div>
                                 <li>Live betting on all major cricket leagues</li>
@@ -75,7 +76,7 @@
                             </div>
                         </div>
                         <div class="w-[750px] border mt-2"></div>
-                        <p class="text-[10px] font-400 mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
+                        <p class="text-[10px] font-[400] mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
                             code Welcome50 to get a 100% bonus up to £50. Bonus funds must meet a 40x wagering
                             requirement within 30 days. Max bet for wagering is £2. Bonus valid for non-jackpot slot
                             games......</p>
@@ -88,9 +89,9 @@
                     </div>
                     <div class="absolute top-5 -right-5 z-4 h-full w-[20%]  text-white">
                         <p
-                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-500 text-[#fff] italic px-2 py-2 ml-10">
+                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-[500] text-[#fff] italic px-2 py-2 ml-10">
                             50,000 Deposit Bonus</p>
-                        <p class="mt-[30px] text-[10px] font-400 text-right mr-8">*Offer valid until: 31st March
+                        <p class="mt-[30px] text-[10px] font-[400] text-right mr-8">*Offer valid until: 31st March
                             2023</p>
                         <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
                             <p class="text-[#FF6500]">Promo Code <span class="text-white">CRICKET100</span></p>
@@ -131,7 +132,7 @@
                             </div>
                         </div>
                         <div class="w-[750px] border mt-2"></div>
-                        <p class="text-[10px] font-400 mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
+                        <p class="text-[10px] font-[400] mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
                             code Welcome50 to get a 100% bonus up to £50. Bonus funds must meet a 40x wagering
                             requirement within 30 days. Max bet for wagering is £2. Bonus valid for non-jackpot slot
                             games......</p>
@@ -144,9 +145,9 @@
                     </div>
                     <div class="absolute top-5 -right-5 z-4 h-full w-[20%]  text-white">
                         <p
-                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-500 text-[#fff] italic px-2 py-2 ml-10">
+                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-[500] text-[#fff] italic px-2 py-2 ml-10">
                             50,000 Deposit Bonus</p>
-                        <p class="mt-[30px] text-[10px] font-400 text-right mr-8">*Offer valid until: 31st March
+                        <p class="mt-[30px] text-[10px] font-[400] text-right mr-8">*Offer valid until: 31st March
                             2023</p>
                         <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
                             <p class="text-[#FF6500]">Promo Code <span class="text-white">CRICKET100</span></p>
@@ -175,7 +176,7 @@
                             class="bg-[#0B192C] w-[10%] h-[20px] p-4 transform -skew-x-12 flex justify-center items-center rounded-[4px]">
                             <p class="text-[#fff]">Raja Bets</p>
                         </div>
-                        <p class="font-700 text-[28px] italic w-[30%]">Premier League Cricket Betting</p>
+                        <p class="font-[700] text-[28px] italic w-[30%]">Premier League Cricket Betting</p>
                         <div class="flex gap-4">
                             <div>
                                 <li>Live betting on all major cricket leagues</li>
@@ -187,7 +188,7 @@
                             </div>
                         </div>
                         <div class="w-[750px] border mt-2"></div>
-                        <p class="text-[10px] font-400 mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
+                        <p class="text-[10px] font-[400] mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
                             code Welcome50 to get a 100% bonus up to £50. Bonus funds must meet a 40x wagering
                             requirement within 30 days. Max bet for wagering is £2. Bonus valid for non-jackpot slot
                             games......</p>
@@ -200,9 +201,9 @@
                     </div>
                     <div class="absolute top-5 -right-5 z-4 h-full w-[20%]  text-white">
                         <p
-                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-500 text-[#fff] italic px-2 py-2 ml-10">
+                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-[500] text-[#fff] italic px-2 py-2 ml-10">
                             50,000 Deposit Bonus</p>
-                        <p class="mt-[30px] text-[10px] font-400 text-right mr-8">*Offer valid until: 31st March
+                        <p class="mt-[30px] text-[10px] font-[400] text-right mr-8">*Offer valid until: 31st March
                             2023</p>
                         <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
                             <p class="text-[#FF6500]">Promo Code <span class="text-white">CRICKET100</span></p>
@@ -231,7 +232,7 @@
                             class="bg-[#0B192C] w-[10%] h-[20px] p-4 transform -skew-x-12 flex justify-center items-center rounded-[4px]">
                             <p class="text-[#fff]">Raja Bets</p>
                         </div>
-                        <p class="font-700 text-[28px] italic w-[30%]">Premier League Cricket Betting</p>
+                        <p class="font-[700] text-[28px] italic w-[30%]">Premier League Cricket Betting</p>
                         <div class="flex gap-4">
                             <div>
                                 <li>Live betting on all major cricket leagues</li>
@@ -243,7 +244,7 @@
                             </div>
                         </div>
                         <div class="w-[750px] border mt-2"></div>
-                        <p class="text-[10px] font-400 mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
+                        <p class="text-[10px] font-[400] mt-2 w-[55%]">18+ New customers only. Deposit min £10 with
                             code Welcome50 to get a 100% bonus up to £50. Bonus funds must meet a 40x wagering
                             requirement within 30 days. Max bet for wagering is £2. Bonus valid for non-jackpot slot
                             games......</p>
@@ -256,9 +257,9 @@
                     </div>
                     <div class="absolute top-5 -right-5 z-4 h-full w-[20%]  text-white">
                         <p
-                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-500 text-[#fff] italic px-2 py-2 ml-10">
+                            class=" text-[16px] bg-[#FF6500] rounded-[5px] font-[500] text-[#fff] italic px-2 py-2 ml-10">
                             50,000 Deposit Bonus</p>
-                        <p class="mt-[30px] text-[10px] font-400 text-right mr-8">*Offer valid until: 31st March
+                        <p class="mt-[30px] text-[10px] font-[400] text-right mr-8">*Offer valid until: 31st March
                             2023</p>
                         <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
                             <p class="text-[#FF6500]">Promo Code <span class="text-white">CRICKET100</span></p>
@@ -275,7 +276,7 @@
 
             </div>
             <div class="flex gap-2 m-4 z-2">
-                <p class="text-[16px] font-600">View All Betting Sites </p>
+                <p class="text-[16px] font-[600]">View All Betting Sites </p>
                 <div class="bg-[#0B192C] w-[25px] h-[25px] p-2 rounded-full flex justify-center items-center  ">
                     <i class="ri-arrow-right-up-line text-[16px] text-white"></i>
                 </div>

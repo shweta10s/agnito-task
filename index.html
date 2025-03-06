@@ -10,9 +10,19 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <style>
     body {
+        font-family: 'roboto';
+    }
+
+    .page1content {
         font-family: 'open sans';
     }
 
@@ -25,11 +35,11 @@
         clip-path: polygon(65% 0, 100% 0, 100% 100%, 40% 100%);
 
     }
-    .deliver{
+
+    .deliver {
         clip-path: circle(59.3% at 22% 41%);
 
     }
-
 </style>
 
 <body>
@@ -37,7 +47,7 @@
         <nav class="md:h-[84px] flex justify-between items-center px-6 md:px-[50px] max-md:py-2">
             <!-- Logo -->
             <p class="text-[#FF6500] font-bold text-[24px]">BET<span class="text-[#000] font-bold">on</span>CRICKET</p>
-    
+
             <!-- Desktop Menu (Hidden on Small Screens) -->
             <ul class="hidden md:flex items-center gap-[30px]">
                 <li class="flex items-center cursor-pointer hover:text-[#FF6500] md:text-[16px] font-medium">
@@ -59,23 +69,25 @@
                     News <i class="ri-arrow-down-s-line"></i>
                 </li>
             </ul>
-    
+
             <!-- Buttons -->
             <div class="hidden md:flex gap-4">
-                <button class="px-4 py-2 border border-[#0B192C] text-[#0B192C] hover:bg-[#0B192C] hover:text-white rounded-md">
+                <button
+                    class="px-4 py-2 border border-[#0B192C] text-[#0B192C] hover:bg-[#0B192C] hover:text-white rounded-md">
                     Log In
                 </button>
-                <button class="px-4 py-2 bg-[#0B192C] text-white hover:bg-white hover:text-[#0B192C] border border-[#0B192C] rounded-md">
+                <button
+                    class="px-4 py-2 bg-[#0B192C] text-white hover:bg-white hover:text-[#0B192C] border border-[#0B192C] rounded-md">
                     Sign In
                 </button>
             </div>
-    
+
             <!-- Mobile Menu Button -->
             <button id="menu-btn" class="md:hidden text-3xl">
                 <i class="ri-menu-line"></i>
             </button>
         </nav>
-    
+
         <!-- Mobile Menu (Hidden by Default) -->
         <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg absolute top-20 left-0 w-full py-4 px-6">
             <ul class="flex flex-col gap-4">
@@ -86,59 +98,69 @@
                 <li class="cursor-pointer hover:text-[#FF6500] text-[16px] font-medium">FAQs</li>
                 <li class="cursor-pointer hover:text-[#FF6500] text-[16px] font-medium">News</li>
             </ul>
-            
+
             <!-- Mobile Buttons -->
             <div class="mt-4 flex flex-col gap-2">
-                <button class="px-4 py-2 border border-[#0B192C] text-[#0B192C] hover:bg-[#0B192C] hover:text-white rounded-md">
+                <button
+                    class="px-4 py-2 border border-[#0B192C] text-[#0B192C] hover:bg-[#0B192C] hover:text-white rounded-md">
                     Log In
                 </button>
-                <button class="px-4 py-2 bg-[#0B192C] text-white hover:bg-white hover:text-[#0B192C] border border-[#0B192C] rounded-md">
+                <button
+                    class="px-4 py-2 bg-[#0B192C] text-white hover:bg-white hover:text-[#0B192C] border border-[#0B192C] rounded-md">
                     Sign In
                 </button>
             </div>
         </div>
-    
-       
+
+
         <div class="w-full h-full flex flex-col justify-center items-center">
 
-            <div class="page1 w-full md:w-[1300px] md:h-[596px] rounded-[39px] flex flex-col md:flex-row relative overflow-hidden max-md:pt-4 max-md:mt-4">
+            <div
+                class="page1 w-full md:w-[1300px] md:h-[596px] rounded-[39px] flex flex-col md:flex-row relative overflow-hidden max-md:pt-4 max-md:mt-4">
                 <!-- Left Background Gradient -->
                 <div
                     class="absolute -top-[40%] -left-[10%] h-[980px] w-[440px] z-1 rotate-[40deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
                 </div>
-            
+
                 <!-- Blur Effect -->
                 <div>
                     <img class="absolute -top-[12%] left-[45%] w-[15%] opacity-50" src="image/blur.png" alt="">
                 </div>
-            
+
                 <!-- Right Background Gradient -->
                 <div
                     class="absolute -top-[40%] -right-[5%] h-[980px] w-[440px] z-1 rotate-[160deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
                 </div>
-            
+
                 <!-- Left Content -->
-                <div class="left w-full md:w-[50%] h-full z-3 flex flex-col justify-center px-5 md:px-10">
-                    <p class="font-normal text-xl md:text-[40px] text-center md:text-left">
+                <div class="left w-full md:w-[70%] h-full z-3 flex flex-col justify-center px-5 md:px-10">
+                    <p class="page1content font-normal text-xl md:text-[40px] text-center md:text-left">
                         "<span class="text-[#8C3800]">Explore, Compare, Bet</span><br>
-                        Your <span class="font-semibold bg-[#ffb98a] px-2 py-1 rounded-[16px]">Cricket Betting Partner!”</span>
+                        Your <span class="font-semibold bg-[#ffb98a] px-2 py-1 rounded-[16px]">Cricket Betting
+                            Partner!”</span>
                     </p>
-            
+
                     <!-- Buttons -->
                     <div class="flex flex-wrap justify-center md:justify-start gap-4 my-3">
-                        <div class="flex items-center gap-2 bg-[#ffb98a] text-[16px] font-semibold px-3 py-3 rounded-[16px]">
-                            <svg width="26px" height="26px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                        <div
+                            class="flex items-center gap-2 bg-[#ffb98a] text-[16px] font-semibold px-3 py-3 rounded-[16px]">
+                            <svg width="26px" height="26px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                fill="#000000">
                                 <g id="SVGRepo_iconCarrier">
-                                    <polygon points="16.64 15.13 17.38 13.88 20.91 13.88 22 12 19.82 8.25 16.75 8.25 15.69 6.39 14.5 6.39 14.5 5.13 16.44 5.13 17.5 7 19.09 7 16.9 3.25 12.63 3.25 12.63 8.25 14.36 8.25 15.09 9.5 12.63 9.5 12.63 12 14.89 12 15.94 10.13 18.75 10.13 19.47 11.38 16.67 11.38 15.62 13.25 12.63 13.25 12.63 17.63 16.03 17.63 15.31 18.88 12.63 18.88 12.63 20.75 16.9 20.75 20.18 15.13 18.09 15.13 17.36 16.38 14.5 16.38 14.5 15.13 16.64 15.13">
+                                    <polygon
+                                        points="16.64 15.13 17.38 13.88 20.91 13.88 22 12 19.82 8.25 16.75 8.25 15.69 6.39 14.5 6.39 14.5 5.13 16.44 5.13 17.5 7 19.09 7 16.9 3.25 12.63 3.25 12.63 8.25 14.36 8.25 15.09 9.5 12.63 9.5 12.63 12 14.89 12 15.94 10.13 18.75 10.13 19.47 11.38 16.67 11.38 15.62 13.25 12.63 13.25 12.63 17.63 16.03 17.63 15.31 18.88 12.63 18.88 12.63 20.75 16.9 20.75 20.18 15.13 18.09 15.13 17.36 16.38 14.5 16.38 14.5 15.13 16.64 15.13">
                                     </polygon>
                                 </g>
                             </svg>
                             <p>Explore top platforms</p>
                         </div>
-            
-                        <div class="flex items-center gap-2 bg-[#ffb98a] text-[16px] font-semibold px-3 py-3 rounded-[16px]">
-                            <svg width="26px" height="26px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 3V0H5C6.65685 0 8 1.34315 8 3C8 1.34315 9.34315 0 11 0H13V3H16V6H0V3H3Z" fill="#000000">
+
+                        <div
+                            class="flex items-center gap-2 bg-[#ffb98a] text-[16px] font-semibold px-3 py-3 rounded-[16px]">
+                            <svg width="26px" height="26px" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 3V0H5C6.65685 0 8 1.34315 8 3C8 1.34315 9.34315 0 11 0H13V3H16V6H0V3H3Z"
+                                    fill="#000000">
                                 </path>
                                 <path d="M1 8H7V15H1V8Z" fill="#000000"></path>
                                 <path d="M15 8H9V15H15V8Z" fill="#000000"></path>
@@ -146,448 +168,711 @@
                             <p>Compare Bonuses</p>
                         </div>
                     </div>
-            
+
                     <!-- Heading & Description -->
-                    <p class="text-lg md:text-[24px] font-semibold text-center md:text-left">Welcome to BET ON CRICKET</p>
+                    <p class="text-lg md:text-[24px] font-semibold text-center md:text-left">Welcome to BET ON CRICKET
+                    </p>
                     <p class="text-sm md:text-[16px] font-normal text-[#4A4A4A] mt-2 text-center md:text-left">
-                        Your ultimate hub for top betting sites, exclusive bonuses, and expert tips. Score big with trusted
+                        Your ultimate hub for top betting sites, exclusive bonuses, and expert tips. Score big with
+                        trusted
                         reviews, crypto options, and unbeatable offers!
                     </p>
-            
+
                     <!-- Buttons -->
                     <div class="flex max-md:flex-col justify-center md:justify-start items-center gap-4 mt-4">
                         <button
                             class="py-[10px] px-[24px] bg-[#0B192C] rounded-[6px] text-[#fff] hover:bg-[#fff] hover:text-[#0B192C] transition">
                             Explore Sites
                         </button>
-                        <p class="font-semibold text-[16px]">Claim Exclusive Bonus <i class="ri-arrow-right-line"></i></p>
+                        <p class="font-semibold text-[16px]">Claim Exclusive Bonus <i class="ri-arrow-right-line"></i>
+                        </p>
                     </div>
                 </div>
-            
+
                 <!-- Right Image -->
                 <div class="right w-full md:w-[50%] h-full z-3 flex justify-center md:justify-end">
                     <img class="h-auto md:h-full w-[80%] md:w-auto" src="/image/cricket.png" alt="">
                 </div>
             </div>
-            
 
-           
 
-            <div class="page3 mt-6 md:mt-[50px] w-full max-w-[1300px] mx-auto rounded-[39px] bg-white flex flex-col justify-center items-center relative overflow-hidden p-4 md:p-8">
-                <!-- Background Shapes -->
-                <div class="absolute -top-[40%] -left-[5%] h-[980px] w-[440px] rotate-[40deg] bg-gradient-to-r from-[#ffb98a] to-[#fff] opacity-40"></div>
-                <div class="absolute -top-[40%] -right-[5%] h-[980px] w-[440px] rotate-[120deg] bg-gradient-to-r from-[#ffb98a] to-[#fff] opacity-40"></div>
-                
-                <!-- Title Section -->
-                <div class="z-10 text-center px-4">
-                    <p class="text-[24px] md:text-[32px] font-bold mt-6">Latest Cricket News & Match Updates</p>
-                    <p class="text-[14px] md:text-[16px] font-semibold max-w-[80%] mx-auto mt-2">Stay ahead of the game with the freshest cricket news, match highlights, expert analysis, and betting insights—all in one place!</p>
+            <div
+            class="page2 mt-6 md:mt-[50px] w-full max-w-[1300px] mx-auto rounded-[39px] flex flex-col justify-center items-center relative overflow-hidden p-4 md:p-8">
+            <!-- Background Shapes -->
+            <div
+              class="absolute -top-[55%] -left-[15%] h-[980px] w-[440px] z-1 rotate-[40deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
+            </div>
+            <div
+              class="absolute top-0 -right-[15%] h-[780px] w-[540px] z-1 bg-gradient-to-br from-[#ffb98a] to-[#fff] rounded-[20px] opacity-50">
+            </div>
+            <div
+              class="absolute top-[10%] right-[30%] h-[780px] w-[540px] z-1 rotate-[180deg] bg-gradient-to-br from-[#ffb98a] to-[#fff] rounded-[20px]">
+            </div>
+            <div class="absolute top-[5%] left-[5%] h-[600px] w-[600px] z-1 bg-[#fff] rounded-full opacity-50"></div>
+          
+            <!-- Title and Description -->
+            <p class="text-[20px] sm:text-[24px] md:text-[32px] font-bold mt-6 z-4 text-center">
+              Top Cricket Betting Sites to Bet Smarter and Win Bigger!!
+            </p>
+            <p class="text-[14px] md:text-[16px] font-semibold max-w-[80%] md:max-w-[60%] text-center mx-auto mt-2 z-4">
+              Explore the most trusted cricket betting platforms, handpicked for their unbeatable bonuses, secure transactions, and user-friendly interfaces.
+            </p>
+          
+            <!-- Ticket Section -->
+            <div class="w-full h-auto z-5 mt-[30px] flex flex-wrap justify-center items-center gap-4 realtive">
+                <div class="h-[40px] flex items-center justify-between px-6 w-full absolute transform translate-[50%, 50%] ">
+                    <div class="h-[30px] w-[30px] bg-[#f8c19d] rounded-full flex justify-center items-center ">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="h-[30px] w-[30px] bg-[#f8c19d] rounded-full flex justify-center items-center ">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
                 </div>
-            
-                <!-- News Grid -->
-                <div class="badabox w-full max-w-[90%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 z-10">
-                    <!-- News Card Template -->
-                    <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
-                        <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image1.jpg" alt="">
-                        <div class="mt-2">
-                            <p class="text-[12px] font-bold text-gray-700">Cricket News</p>
-                            <p class="text-[18px] md:text-[20px] font-bold mt-1">IPL 2025 Auction: Who’s In & Who’s Out?</p>
-                            <p class="text-[14px] text-gray-600 mt-1">The IPL 2025 auction has witnessed intense bidding wars, shocking player releases, and surprise picks...</p>
-                            <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
-                                <p class="flex items-center">Read More <span class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span></p>
-                                <p>5 min ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Copy and Replace image/src for More Cards -->
-                    <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
-                        <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image2.jpg" alt="">
-                        <div class="mt-2">
-                            <p class="text-[12px] font-bold text-gray-700">Match Highlights</p>
-                            <p class="text-[18px] md:text-[20px] font-bold mt-1">Top 5 Players to Watch in T20 World Cup</p>
-                            <p class="text-[14px] text-gray-600 mt-1">As the T20 World Cup approaches, cricket fans are eager to see which players will dominate the tournament...</p>
-                            <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
-                                <p class="flex items-center">Read More <span class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span></p>
-                                <p>10 min ago</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
-                        <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image3.png" alt="">
-                        <div class="mt-2">
-                            <p class="text-[12px] font-bold text-gray-700">Betting Guide</p>
-                            <p class="text-[18px] md:text-[20px] font-bold mt-1">Betting Insights: How Weather Conditions Impact Cricket Matches</p>
-                            <p class="text-[14px] text-gray-600 mt-1">id you know that weather conditions can significantly impact match outcomes? Overcast skies help fast...</p>
-                            <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
-                                <p class="flex items-center">Read More <span class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span></p>
-                                <p>5 min ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Copy and Replace image/src for More Cards -->
-                    <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
-                        <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image4.png" alt="">
-                        <div class="mt-2">
-                            <p class="text-[12px] font-bold text-gray-700">Player Spotlight</p>
-                            <p class="text-[18px] md:text-[20px] font-bold mt-1">MS Dhoni’s Retirement: What’s Next for the Captain Cool?</p>
-                            <p class="text-[14px] text-gray-600 mt-1">After an illustrious career filled with legendary moments, MS Dhoni’s retirement marks...</p>
-                            <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
-                                <p class="flex items-center">Read More <span class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span></p>
-                                <p>10 min ago</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
-                        <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image5.png" alt="">
-                        <div class="mt-2">
-                            <p class="text-[12px] font-bold text-gray-700">Match Analysis</p>
-                            <p class="text-[18px] md:text-[20px] font-bold mt-1">Top 3 Most Shocking Cricket Upsets of the Year</p>
-                            <p class="text-[14px] text-gray-600 mt-1">Cricket is a game of unpredictability, and this year has seen some of the biggest upsets in history....</p>
-                            <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
-                                <p class="flex items-center">Read More <span class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span></p>
-                                <p>5 min ago</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Copy and Replace image/src for More Cards -->
-                    <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
-                        <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image6.jpg" alt="">
-                        <div class="mt-2">
-                            <p class="text-[12px] font-bold text-gray-700">Exclusive Interview</p>
-                            <p class="text-[18px] md:text-[20px] font-bold mt-1">Exclusive Interview: Virat Kohli on His Future in Cricke</p>
-                            <p class="text-[14px] text-gray-600 mt-1">Virat Kohli opens up in an exclusive interview about his fitness, leadership journey. Will he continue...</p>
-                            <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
-                                <p class="flex items-center">Read More <span class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span></p>
-                                <p>10 min ago</p>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <!-- Add More Cards Similar to Above Here -->
+              <div class="ticket h-[210px] w-full sm:w-[370px] rounded-[12px] bg-gradient-to-r from-[#fff] to-[#ffb98a] relative flex transition transform hover:-translate-y-4 shadow-lg">
+                <div class="left w-[30%] h-full rounded-l-[12px]">
+                  <img class="h-full rounded-l-[12px] object-cover" src="image/box-plcb.jpg" alt="">
                 </div>
-            
-                <!-- View More Button -->
-                <div class="flex items-center gap-2 mt-6 text-[16px] font-semibold cursor-pointer text-[#0B192C]">
-                    <p>View More Articles</p>
-                    <div class="bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</div>
+                <div class="right w-[70%] h-full pl-2">
+                  <div class="up h-[60%] w-full pl-2 pt-5 relative">
+                    <p class="text-[11px] w-fit bg-[#FF6500] rounded-l-[5px] font-[500] text-[#fff] italic px-3 py-1 absolute right-0 top-[5%]">
+                      50,000 Deposit Bonus
+                    </p>
+                    <p class="text-[10px] font-[500]">Raja Bets</p>
+                    <p class="text-[16px] sm:text-[18px] font-[700] italic w-[90%] leading-[100%]">Premier League Cricket Betting</p>
+                    <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
+                      <p class="text-[#000] text-[12px] font-[500]">Promo Code | <span class="text-[#000] text-[12px] font-[600] italic">CRICKET100</span></p>
+                    </div>
+                  </div>
+                  <div class="down h-[40%] w-full bg-[#0B192C] rounded-br-[12px] px-2">
+                    <button class="w-full bg-[#FF6500] py-2 -mt-6 rounded-[4px]">Visit Now</button>
+                    <div class="h-[1px] bg-white mt-2 rounded-full"></div>
+                    <div class="flex justify-between gap-4 text-white mt-3 text-[8px]">
+                      <p class="font-[400]">T&C's Apply, 18+, Please Gamble Responsibly.</p>
+                      <div class="border-l border-white px-2 font-[600]">View Offer <i class="ri-arrow-right-line"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ticket h-[210px] w-full sm:w-[370px] rounded-[12px] bg-gradient-to-r from-[#fff] to-[#ffb98a] relative flex transition transform hover:-translate-y-4 shadow-lg max-md:hidden">
+                <div class="left w-[30%] h-full rounded-l-[12px]">
+                  <img class="h-full rounded-l-[12px] object-cover" src="image/box-plcb.jpg" alt="">
+                </div>
+                <div class="right w-[70%] h-full pl-2">
+                  <div class="up h-[60%] w-full pl-2 pt-5 relative">
+                    <p class="text-[11px] w-fit bg-[#FF6500] rounded-l-[5px] font-[500] text-[#fff] italic px-3 py-1 absolute right-0 top-[5%]">
+                      50,000 Deposit Bonus
+                    </p>
+                    <p class="text-[10px] font-[500]">Raja Bets</p>
+                    <p class="text-[16px] sm:text-[18px] font-[700] italic w-[90%] leading-[100%]">Premier League Cricket Betting</p>
+                    <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
+                      <p class="text-[#000] text-[12px] font-[500]">Promo Code | <span class="text-[#000] text-[12px] font-[600] italic">CRICKET100</span></p>
+                    </div>
+                  </div>
+                  <div class="down h-[40%] w-full bg-[#0B192C] rounded-br-[12px] px-2">
+                    <button class="w-full bg-[#FF6500] py-2 -mt-6 rounded-[4px]">Visit Now</button>
+                    <div class="h-[1px] bg-white mt-2 rounded-full"></div>
+                    <div class="flex justify-between gap-4 text-white mt-3 text-[8px]">
+                      <p class="font-[400]">T&C's Apply, 18+, Please Gamble Responsibly.</p>
+                      <div class="border-l border-white px-2 font-[600]">View Offer <i class="ri-arrow-right-line"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ticket h-[210px] w-full sm:w-[370px] rounded-[12px] bg-gradient-to-r from-[#fff] to-[#ffb98a] relative flex transition transform hover:-translate-y-4 shadow-lg max-md:hidden">
+                <div class="left w-[30%] h-full rounded-l-[12px]">
+                  <img class="h-full rounded-l-[12px] object-cover" src="image/box-plcb.jpg" alt="">
+                </div>
+                <div class="right w-[70%] h-full pl-2">
+                  <div class="up h-[60%] w-full pl-2 pt-5 relative">
+                    <p class="text-[11px] w-fit bg-[#FF6500] rounded-l-[5px] font-[500] text-[#fff] italic px-3 py-1 absolute right-0 top-[5%]">
+                      50,000 Deposit Bonus
+                    </p>
+                    <p class="text-[10px] font-[500]">Raja Bets</p>
+                    <p class="text-[16px] sm:text-[18px] font-[700] italic w-[90%] leading-[100%]">Premier League Cricket Betting</p>
+                    <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-1 w-fit mt-2">
+                      <p class="text-[#000] text-[12px] font-[500]">Promo Code | <span class="text-[#000] text-[12px] font-[600] italic">CRICKET100</span></p>
+                    </div>
+                  </div>
+                  <div class="down h-[40%] w-full bg-[#0B192C] rounded-br-[12px] px-2">
+                    <button class="w-full bg-[#FF6500] py-2 -mt-6 rounded-[4px]">Visit Now</button>
+                    <div class="h-[1px] bg-white mt-2 rounded-full"></div>
+                    <div class="flex justify-between gap-4 text-white mt-3 text-[8px]">
+                      <p class="font-[400]">T&C's Apply, 18+, Please Gamble Responsibly.</p>
+                      <div class="border-l border-white px-2 font-[600]">View Offer <i class="ri-arrow-right-line"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+
+
+
+        <div
+            class="page3 mt-6 md:mt-[50px] w-full max-w-[1300px] mx-auto rounded-[39px] bg-white flex flex-col justify-center items-center relative overflow-hidden p-4 md:p-8">
+            <!-- Background Shapes -->
+            <div
+                class="absolute -top-[40%] -left-[5%] h-[980px] w-[440px] rotate-[40deg] bg-gradient-to-r from-[#ffb98a] to-[#fff] opacity-40">
+            </div>
+            <div
+                class="absolute -top-[40%] -right-[5%] h-[980px] w-[440px] rotate-[120deg] bg-gradient-to-r from-[#ffb98a] to-[#fff] opacity-40">
+            </div>
+
+            <!-- Title Section -->
+            <div class="z-10 text-center px-4">
+                <p class="text-[24px] md:text-[32px] font-bold mt-6">Latest Cricket News & Match Updates</p>
+                <p class="text-[14px] md:text-[16px] font-semibold max-w-[80%] mx-auto mt-2">Stay ahead of the game
+                    with the freshest cricket news, match highlights, expert analysis, and betting insights—all in
+                    one place!</p>
+            </div>
+
+            <!-- News Grid -->
+            <div class="badabox w-full max-w-[90%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 z-10">
+                <!-- News Card Template -->
+                <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
+                    <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image1.jpg" alt="">
+                    <div class="mt-2">
+                        <p class="text-[12px] font-bold text-gray-700">Cricket News</p>
+                        <p class="text-[18px] md:text-[20px] font-bold mt-1">IPL 2025 Auction: Who’s In & Who’s Out?
+                        </p>
+                        <p class="text-[14px] text-gray-600 mt-1">The IPL 2025 auction has witnessed intense bidding
+                            wars, shocking player releases, and surprise picks...</p>
+                        <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
+                            <p class="flex items-center">Read More <span
+                                    class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span>
+                            </p>
+                            <p>5 min ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copy and Replace image/src for More Cards -->
+                <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
+                    <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image2.jpg" alt="">
+                    <div class="mt-2">
+                        <p class="text-[12px] font-bold text-gray-700">Match Highlights</p>
+                        <p class="text-[18px] md:text-[20px] font-bold mt-1">Top 5 Players to Watch in T20 World Cup
+                        </p>
+                        <p class="text-[14px] text-gray-600 mt-1">As the T20 World Cup approaches, cricket fans are
+                            eager to see which players will dominate the tournament...</p>
+                        <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
+                            <p class="flex items-center">Read More <span
+                                    class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span>
+                            </p>
+                            <p>10 min ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
+                    <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image3.png" alt="">
+                    <div class="mt-2">
+                        <p class="text-[12px] font-bold text-gray-700">Betting Guide</p>
+                        <p class="text-[18px] md:text-[20px] font-bold mt-1">Betting Insights: How Weather
+                            Conditions Impact Cricket Matches</p>
+                        <p class="text-[14px] text-gray-600 mt-1">id you know that weather conditions can
+                            significantly impact match outcomes? Overcast skies help fast...</p>
+                        <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
+                            <p class="flex items-center">Read More <span
+                                    class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span>
+                            </p>
+                            <p>5 min ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copy and Replace image/src for More Cards -->
+                <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
+                    <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image4.png" alt="">
+                    <div class="mt-2">
+                        <p class="text-[12px] font-bold text-gray-700">Player Spotlight</p>
+                        <p class="text-[18px] md:text-[20px] font-bold mt-1">MS Dhoni’s Retirement: What’s Next for
+                            the Captain Cool?</p>
+                        <p class="text-[14px] text-gray-600 mt-1">After an illustrious career filled with legendary
+                            moments, MS Dhoni’s retirement marks...</p>
+                        <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
+                            <p class="flex items-center">Read More <span
+                                    class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span>
+                            </p>
+                            <p>10 min ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
+                    <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image5.png" alt="">
+                    <div class="mt-2">
+                        <p class="text-[12px] font-bold text-gray-700">Match Analysis</p>
+                        <p class="text-[18px] md:text-[20px] font-bold mt-1">Top 3 Most Shocking Cricket Upsets of
+                            the Year</p>
+                        <p class="text-[14px] text-gray-600 mt-1">Cricket is a game of unpredictability, and this
+                            year has seen some of the biggest upsets in history....</p>
+                        <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
+                            <p class="flex items-center">Read More <span
+                                    class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span>
+                            </p>
+                            <p>5 min ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copy and Replace image/src for More Cards -->
+                <div class="box h-auto bg-white border border-gray-300 shadow-sm flex flex-col p-4 rounded-[8px]">
+                    <img class="w-full h-[180px] md:h-[200px] rounded-[8px] object-cover" src="image/image6.jpg" alt="">
+                    <div class="mt-2">
+                        <p class="text-[12px] font-bold text-gray-700">Exclusive Interview</p>
+                        <p class="text-[18px] md:text-[20px] font-bold mt-1">Exclusive Interview: Virat Kohli on His
+                            Future in Cricke</p>
+                        <p class="text-[14px] text-gray-600 mt-1">Virat Kohli opens up in an exclusive interview
+                            about his fitness, leadership journey. Will he continue...</p>
+                        <div class="flex justify-between items-center mt-3 text-sm text-gray-500">
+                            <p class="flex items-center">Read More <span
+                                    class="ml-2 bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">→</span>
+                            </p>
+                            <p>10 min ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add More Cards Similar to Above Here -->
+            </div>
+
+            <!-- View More Button -->
+            <div class="flex items-center gap-2 mt-6 text-[16px] font-semibold cursor-pointer text-[#0B192C]">
+                <p>View More Articles</p>
+                <div class="bg-[#0B192C] w-[25px] h-[25px] flex justify-center items-center text-white rounded-full">
+                    →</div>
+            </div>
+        </div>
+
+
+        <div
+            class="page4 flex flex-col md:flex-row h-auto md:h-[500px] w-full max-w-[1300px] mx-auto md:mt-[30px] relative p-4">
+
+            <!-- Top Gradient Line -->
+            <div
+                class="absolute h-[10px] w-[60%] rounded-full md:top-[15%] max-md:top-[14%] left-[30%] z-1 bg-gradient-to-r from-[#ffb98a] to-white">
+            </div>
+
+            <!-- Left Section (Text) -->
+            <div class="left w-full md:w-[50%] h-auto md:h-[90%] px-4 md:px-2 text-center md:text-left">
+                <p class="text-[24px] font-semibold">Why Choose</p>
+                <p class="italic font-bold text-[32px] md:text-[40px]">BET ON CRICKET?</p>
+                <p class="italic font-bold text-[18px] md:text-[20px]">Your Go-To Hub for Betting Tips & Offers!!
+                </p>
+
+                <p class="text-[14px] md:text-[16px] font-semibold mt-4">
+                    At Bet On Cricket, we go beyond simple reviews and recommendations. Our mission is to bring you
+                    a comprehensive exploration of the dynamic world of online betting.
+                </p>
+
+                <p class="text-[14px] md:text-[16px] font-semibold mt-4">
+                    Explore everything from free bets and exciting bonuses to cricket-focused options and the latest
+                    promotions. Whether you’re a seasoned punter or just starting, we provide detailed information
+                    to help you find the best sites, secure unbeatable deals, and make the most of your bets.
+                </p>
+
+                <p class="text-[14px] md:text-[16px] font-semibold mt-4">
+                    Our platform isn’t just about listing the top betting sites in India; we also showcase the
+                    finest betting exchanges, emerging platforms, and specialized options for cricket enthusiasts.
+                </p>
+
+                <p class="text-[14px] md:text-[16px] font-semibold mt-4">
+                    Stay ahead in the game with Bet On Cricket, your ultimate destination for betting knowledge and
+                    offers!
+                </p>
+            </div>
+
+            <!-- Right Section (Images) -->
+            <div
+                class="right w-full md:w-[50%] h-auto md:h-[90%] relative flex justify-center md:justify-end overflow-hidden mt-6 md:mt-0">
+                <img class="absolute h-full bottom-0 right-[5%] hidden sm:block" src="image/Group 1171275569.png"
+                    alt="">
+                <img class="absolute w-[200px] md:w-[300px] bottom-[5%] right-[15%] sm:right-[25%]"
+                    src="image/Group 76.png" alt="">
+            </div>
+
+            <!-- Bottom Gradient Line -->
+            <div
+                class="absolute h-[10px] w-[50%] rounded-full bottom-[2%] left-[25%] md:left-[35%] z-1 bg-gradient-to-r from-[#ffb98a] to-white">
+            </div>
+
+            <!-- Vertical Gradient Line -->
+            <div
+                class="absolute h-[60%] w-[10px] rounded-full bottom-0 right-[3%] z-1 bg-gradient-to-t from-[#ffb98a] to-white hidden sm:block">
+            </div>
+
+        </div>
+
+
+        <div
+            class="page5 md:mt-[50px] md:h-full md:w-[1300px] rounded-[39px] flex flex-col justify-center items-center relative overflow-hidden p-4">
+            <div
+                class="absolute -top-[10%] left-0 h-[30%] w-full bg-gradient-to-b from-[#ffb98a] via-white to-white flex items-center justify-center">
+            </div>
+            <p class="text-[24px] md:text-[32px] font-bold mt-[20px] md:mt-[30px] z-2 text-center">Top Indian
+                Cricket Betting Bonuses You Can’t Miss!</p>
+            <p class="text-[14px] md:text-[16px] font-semibold w-[90%] md:w-[55%] text-center z-2">Grab the best
+                cricket betting bonuses tailored for Indian players! From free bets to exclusive deposit offers,
+                find unbeatable deals to enhance your betting experience during every match.</p>
+
+            <div
+                class="w-full h-full mt-[20px] md:mt-[40px] flex flex-col gap-6 md:gap-8 justify-center items-center z-2">
+
+                <!-- Bonus Cards -->
+                <div
+                    class="w-full md:w-[1086px] h-auto md:h-[256px] bg-white flex flex-col md:flex-row overflow-hidden relative rounded-[15px] p-4 md:p-0">
+                    <div
+                        class="middle w-full md:w-[82%] h-full flex flex-col md:absolute md:top-0 md:left-[18%] p-4 md:pt-6 md:pl-[80px] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
+                        <div
+                            class="bg-[#0B192C] w-fit h-[20px] p-2 md:p-4 transform -skew-x-12 flex justify-center items-center rounded-[4px]">
+                            <p class="text-[#fff] text-[12px] md:text-[14px]">Raja Bets</p>
+                        </div>
+                        <p class="font-bold text-[20px] md:text-[28px] italic w-full md:w-[30%] mt-2">Premier League
+                            Cricket Betting</p>
+                        <div class="flex flex-col md:flex-row gap-2 md:gap-4 mt-2">
+                            <ul class="list-disc ml-4">
+                                <li>Live betting on all major cricket leagues</li>
+                                <li>Crypto-friendly transactions</li>
+                            </ul>
+                            <ul class="list-disc ml-4">
+                                <li>Exclusive betting tips and expert guides</li>
+                                <li>Secure transactions</li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-[750px] border mt-2"></div>
+                        <p class="text-[10px] font-normal mt-2 w-full md:w-[55%]">18+ New customers only. Deposit
+                            min £10 with code Welcome50 to get a 100% bonus up to £50. Bonus funds must meet a 40x
+                            wagering requirement within 30 days. Max bet for wagering is £2. Bonus valid for
+                            non-jackpot slot games...</p>
+                    </div>
+                    <div
+                        class="absolute md:relative top-5 -right-5 md:right-0 z-4 h-full w-full md:w-[20%] text-white text-center md:text-left">
+                        <p
+                            class="text-[14px] md:text-[16px] bg-[#FF6500] rounded-[5px] font-semibold italic px-2 py-2 md:ml-10">
+                            50,000 Deposit Bonus</p>
+                        <p class="mt-[10px] md:mt-[30px] text-[10px] font-normal text-right mr-2 md:mr-8">*Offer
+                            valid until: 31st March 2023</p>
+                        <div
+                            class="border border-dashed border-[#FF6500] px-1 py-1 rounded-md w-fit mx-auto md:mx-0 mt-2">
+                            <p class="text-[#FF6500]">Promo Code <span class="text-white">CRICKET100</span></p>
+                        </div>
+                        <button class="w-full bg-[#FF6500] py-2 mt-2">Visit Now</button>
+                        <div
+                            class="w-fit mt-[20px] md:mt-[55px] border-l-2 border-white px-2 mx-auto md:ml-[40%] text-[12px] font-semibold flex items-center gap-1">
+                            View Offer<i class="ri-arrow-right-line"></i></div>
+                    </div>
                 </div>
             </div>
-            
 
-            <div class="page4 flex flex-col md:flex-row h-auto md:h-[500px] w-full max-w-[1300px] mx-auto md:mt-[30px] relative p-4">
-    
-                <!-- Top Gradient Line -->
-                <div class="absolute h-[10px] w-[60%] rounded-full md:top-[15%] max-md:top-[14%] left-[30%] z-1 bg-gradient-to-r from-[#ffb98a] to-white"></div>
-            
-                <!-- Left Section (Text) -->
-                <div class="left w-full md:w-[50%] h-auto md:h-[90%] px-4 md:px-2 text-center md:text-left">
-                    <p class="text-[24px] font-semibold">Why Choose</p>
-                    <p class="italic font-bold text-[32px] md:text-[40px]">BET ON CRICKET?</p>
-                    <p class="italic font-bold text-[18px] md:text-[20px]">Your Go-To Hub for Betting Tips & Offers!!</p>
-                    
-                    <p class="text-[14px] md:text-[16px] font-semibold mt-4">
-                        At Bet On Cricket, we go beyond simple reviews and recommendations. Our mission is to bring you a comprehensive exploration of the dynamic world of online betting.
-                    </p>
-                    
-                    <p class="text-[14px] md:text-[16px] font-semibold mt-4">
-                        Explore everything from free bets and exciting bonuses to cricket-focused options and the latest promotions. Whether you’re a seasoned punter or just starting, we provide detailed information to help you find the best sites, secure unbeatable deals, and make the most of your bets.
-                    </p>
-            
-                    <p class="text-[14px] md:text-[16px] font-semibold mt-4">
-                        Our platform isn’t just about listing the top betting sites in India; we also showcase the finest betting exchanges, emerging platforms, and specialized options for cricket enthusiasts.
-                    </p>
-            
-                    <p class="text-[14px] md:text-[16px] font-semibold mt-4">
-                        Stay ahead in the game with Bet On Cricket, your ultimate destination for betting knowledge and offers!
-                    </p>
+            <div class="flex gap-2 m-4 z-2">
+                <p class="text-[14px] md:text-[16px] font-semibold">View All Betting Sites</p>
+                <div class="bg-[#0B192C] w-[25px] h-[25px] p-2 rounded-full flex justify-center items-center">
+                    <i class="ri-arrow-right-up-line text-[16px] text-white"></i>
                 </div>
-            
-                <!-- Right Section (Images) -->
-                <div class="right w-full md:w-[50%] h-auto md:h-[90%] relative flex justify-center md:justify-end overflow-hidden mt-6 md:mt-0">
-                    <img class="absolute h-full bottom-0 right-[5%] hidden sm:block" src="image/Group 1171275569.png" alt="">
-                    <img class="absolute w-[200px] md:w-[300px] bottom-[5%] right-[15%] sm:right-[25%]" src="image/Group 76.png" alt="">
-                </div>
-            
-                <!-- Bottom Gradient Line -->
-                <div class="absolute h-[10px] w-[50%] rounded-full bottom-[2%] left-[25%] md:left-[35%] z-1 bg-gradient-to-r from-[#ffb98a] to-white"></div>
-            
-                <!-- Vertical Gradient Line -->
-                <div class="absolute h-[60%] w-[10px] rounded-full bottom-0 right-[3%] z-1 bg-gradient-to-t from-[#ffb98a] to-white hidden sm:block"></div>
-            
             </div>
-            
-
-            <div class="page5 md:mt-[50px] md:h-full md:w-[1300px] rounded-[39px] flex flex-col justify-center items-center relative overflow-hidden p-4">
-                <div class="absolute -top-[10%] left-0 h-[30%] w-full bg-gradient-to-b from-[#ffb98a] via-white to-white flex items-center justify-center"></div>
-                <p class="text-[24px] md:text-[32px] font-bold mt-[20px] md:mt-[30px] z-2 text-center">Top Indian Cricket Betting Bonuses You Can’t Miss!</p>
-                <p class="text-[14px] md:text-[16px] font-semibold w-[90%] md:w-[55%] text-center z-2">Grab the best cricket betting bonuses tailored for Indian players! From free bets to exclusive deposit offers, find unbeatable deals to enhance your betting experience during every match.</p>
-                
-                <div class="w-full h-full mt-[20px] md:mt-[40px] flex flex-col gap-6 md:gap-8 justify-center items-center z-2">
-                    
-                    <!-- Bonus Cards -->
-                    <div class="w-full md:w-[1086px] h-auto md:h-[256px] bg-white flex flex-col md:flex-row overflow-hidden relative rounded-[15px] p-4 md:p-0">
-                        <div class="middle w-full md:w-[82%] h-full flex flex-col md:absolute md:top-0 md:left-[18%] p-4 md:pt-6 md:pl-[80px] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
-                            <div class="bg-[#0B192C] w-fit h-[20px] p-2 md:p-4 transform -skew-x-12 flex justify-center items-center rounded-[4px]">
-                                <p class="text-[#fff] text-[12px] md:text-[14px]">Raja Bets</p>
-                            </div>
-                            <p class="font-bold text-[20px] md:text-[28px] italic w-full md:w-[30%] mt-2">Premier League Cricket Betting</p>
-                            <div class="flex flex-col md:flex-row gap-2 md:gap-4 mt-2">
-                                <ul class="list-disc ml-4">
-                                    <li>Live betting on all major cricket leagues</li>
-                                    <li>Crypto-friendly transactions</li>
-                                </ul>
-                                <ul class="list-disc ml-4">
-                                    <li>Exclusive betting tips and expert guides</li>
-                                    <li>Secure transactions</li>
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-[750px] border mt-2"></div>
-                            <p class="text-[10px] font-normal mt-2 w-full md:w-[55%]">18+ New customers only. Deposit min £10 with code Welcome50 to get a 100% bonus up to £50. Bonus funds must meet a 40x wagering requirement within 30 days. Max bet for wagering is £2. Bonus valid for non-jackpot slot games...</p>
-                        </div>
-                        <div class="absolute md:relative top-5 -right-5 md:right-0 z-4 h-full w-full md:w-[20%] text-white text-center md:text-left">
-                            <p class="text-[14px] md:text-[16px] bg-[#FF6500] rounded-[5px] font-semibold italic px-2 py-2 md:ml-10">50,000 Deposit Bonus</p>
-                            <p class="mt-[10px] md:mt-[30px] text-[10px] font-normal text-right mr-2 md:mr-8">*Offer valid until: 31st March 2023</p>
-                            <div class="border border-dashed border-[#FF6500] px-1 py-1 rounded-md w-fit mx-auto md:mx-0 mt-2">
-                                <p class="text-[#FF6500]">Promo Code <span class="text-white">CRICKET100</span></p>
-                            </div>
-                            <button class="w-full bg-[#FF6500] py-2 mt-2">Visit Now</button>
-                            <div class="w-fit mt-[20px] md:mt-[55px] border-l-2 border-white px-2 mx-auto md:ml-[40%] text-[12px] font-semibold flex items-center gap-1">View Offer<i class="ri-arrow-right-line"></i></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="flex gap-2 m-4 z-2">
-                    <p class="text-[14px] md:text-[16px] font-semibold">View All Betting Sites</p>
-                    <div class="bg-[#0B192C] w-[25px] h-[25px] p-2 rounded-full flex justify-center items-center">
-                        <i class="ri-arrow-right-up-line text-[16px] text-white"></i>
-                    </div>
-                </div>
-                <div class="absolute -bottom-[10%] left-0 h-[50%] w-full bg-gradient-to-b from-[#fff] via-white to-[#ffb98a] flex items-center justify-center"></div>
+            <div
+                class="absolute -bottom-[10%] left-0 h-[50%] w-full bg-gradient-to-b from-[#fff] via-white to-[#ffb98a] flex items-center justify-center">
             </div>
-            
+        </div>
 
 
-            <div class="page6 md:mt-[50px] max-md:mt-[20px] h-auto md:h-[500px] w-full md:w-[1300px] rounded-[39px] flex flex-col justify-center items-center relative overflow-hidden px-4 md:px-0 overflow-hidden">
-                 <div class="absolute -top-[55%] -left-[20%] h-[980px] w-[440px] z-1 rotate-[40deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]"></div>
-                <div>
-                    <img class="absolute -top-[12%] left-[45%] w-[15%] opacity-50" src="image/blur.png" alt="">
+
+        <div
+            class="page6 md:mt-[50px] max-md:mt-[20px] h-auto md:h-[500px] w-full md:w-[1300px] rounded-[39px] flex flex-col justify-center items-center relative overflow-hidden px-4 md:px-0 overflow-hidden">
+            <div
+                class="absolute -top-[55%] -left-[20%] h-[980px] w-[440px] z-1 rotate-[40deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
+            </div>
+            <div>
+                <img class="absolute -top-[12%] left-[45%] w-[15%] opacity-50" src="image/blur.png" alt="">
+            </div>
+            <div
+                class="absolute -top-[40%] -right-[15%] h-[980px] w-[440px] z-1 rotate-[160deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
+            </div>
+            <p class="font-bold text-xl md:text-2xl lg:text-3xl italic mt-6 z-2 text-center">Cricket Formats We
+                Cover</p>
+            <p class="font-semibold text-sm md:text-base text-center w-full md:w-[60%] z-2 px-2">Dive into the
+                thrilling world of cricket with our comprehensive coverage of all popular formats. Whether you’re a
+                fan of classic Test matches or fast-paced T20s, we’ve got something for every cricket enthusiast!
+            </p>
+
+            <div class="w-full md:w-[80%] h-full flex flex-col gap-4 md:gap-8 mt-6 py-4 z-2">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                        <div class="h-[50px] w-[50px] rounded-full">
+                            <img class="h-full w-full rounded-full" src="image/testcricket.png" alt="">
+                        </div>
+                        <p class="max-md:w-[50%] text-sm md:text-base">Test Cricket</p>
+                    </div>
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                        <div class="h-[50px] w-[50px] rounded-full">
+                            <img class="h-full w-full rounded-full" src="image/oneday.png" alt="">
+                        </div>
+                        <p class="max-md:w-[50%] text-sm md:text-base">One Day International</p>
+                    </div>
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                        <div class="h-[50px] w-[50px] rounded-full">
+                            <img class="h-full w-full rounded-full" src="image/t20.png" alt="">
+                        </div>
+                        <p class="max-md:w-[50%] text-sm md:text-base">T20 International</p>
+                    </div>
+
                 </div>
-                <div class="absolute -top-[40%] -right-[15%] h-[980px] w-[440px] z-1 rotate-[160deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]"></div>
-                <p class="font-bold text-xl md:text-2xl lg:text-3xl italic mt-6 z-2 text-center">Cricket Formats We Cover</p>
-                <p class="font-semibold text-sm md:text-base text-center w-full md:w-[60%] z-2 px-2">Dive into the thrilling world of cricket with our comprehensive coverage of all popular formats. Whether you’re a fan of classic Test matches or fast-paced T20s, we’ve got something for every cricket enthusiast!</p>
-                
-                <div class="w-full md:w-[80%] h-full flex flex-col gap-4 md:gap-8 mt-6 py-4 z-2">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
-                        <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
-                            <div class="h-[50px] w-[50px] rounded-full">
-                                <img class="h-full w-full rounded-full" src="image/testcricket.png" alt="">
-                            </div>
-                            <p class="max-md:w-[50%] text-sm md:text-base">Test Cricket</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                        <div class="h-[50px] w-[50px] rounded-full">
+                            <img class="h-full w-full rounded-full" src="image/ipl.png" alt="">
                         </div>
-                        <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
-                            <div class="h-[50px] w-[50px] rounded-full">
-                                <img class="h-full w-full rounded-full" src="image/oneday.png" alt="">
-                            </div>
-                            <p class="max-md:w-[50%] text-sm md:text-base">One Day International</p>
-                        </div>
-                        <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
-                            <div class="h-[50px] w-[50px] rounded-full">
-                                <img class="h-full w-full rounded-full" src="image/t20.png" alt="">
-                            </div>
-                            <p class="max-md:w-[50%] text-sm md:text-base">T20 International</p>
-                        </div>
-                        
+                        <p class="max-md:w-[50%] text-sm md:text-base">Indian Premier League</p>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
-                        <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
-                            <div class="h-[50px] w-[50px] rounded-full">
-                                <img class="h-full w-full rounded-full" src="image/ipl.png" alt="">
-                            </div>
-                            <p class="max-md:w-[50%] text-sm md:text-base">Indian Premier League</p>
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                        <div class="h-[50px] w-[50px] rounded-full">
+                            <img class="h-full w-full rounded-full" src="image/bbl.png" alt="">
                         </div>
-                        <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
-                            <div class="h-[50px] w-[50px] rounded-full">
-                                <img class="h-full w-full rounded-full" src="image/bbl.png" alt="">
-                            </div>
-                            <p class="max-md:w-[50%] text-sm md:text-base">Big Bash League</p>
-                        </div>
-                        <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
-                            <div class="h-[50px] w-[50px] rounded-full">
-                                <img class="h-full w-full rounded-full" src="image/psl.png" alt="">
-                            </div>
-                            <p class="max-md:w-[50%] text-sm md:text-base">Pakistan Super League</p>
-                        </div>
-                        
+                        <p class="max-md:w-[50%] text-sm md:text-base">Big Bash League</p>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
-                    <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                        <div class="h-[50px] w-[50px] rounded-full">
+                            <img class="h-full w-full rounded-full" src="image/psl.png" alt="">
+                        </div>
+                        <p class="max-md:w-[50%] text-sm md:text-base">Pakistan Super League</p>
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
                         <div class="h-[50px] w-[50px] rounded-full">
                             <img class="h-full w-full rounded-full" src="image/ctrophy.png" alt="">
                         </div>
                         <p class="max-md:w-[50%] text-sm md:text-base">Champions Trophy</p>
                     </div>
-                    <div class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
+                    <div
+                        class="flex items-center justify-center gap-4 p-2 bg-[#ffb98a] rounded-[15px] border border-gray-400 transition transform hover:-translate-y-2 shadow-lg hover:bg-[#0B192C] hover:text-white hover:border-[#FF6500]">
                         <div class="h-[50px] w-[50px] rounded-full">
                             <img class="h-full w-full rounded-full" src="image/women.png" alt="">
                         </div>
                         <p class="max-md:w-[50%] text-sm md:text-base">Women’s Cricket</p>
                     </div>
-                    </div>
-
                 </div>
-                <div class="absolute -bottom-[10%] left-0 h-[30%] w-full bg-gradient-to-b from-[#fff] via-white to-[#ffb98a] flex items-center justify-center"></div>
-            </div>
-            
 
-            <div class="page7 md:mt-[50px] md:h-full md:w-full flex flex-col justify-center items-center relative overflow-hidden px-4 sm:px-8 md:px-12 lg:px-16">
-                <div class="absolute md:-top-[50%] max-md:-bottom-[10%] max-md:-right-[40%] md:-right-[20%] h-[1000px] w-[440px] z-1 rotate-[200deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]"></div>
-                <p class="font-bold italic text-[24px] sm:text-[28px] md:text-[32px] mt-[20px] sm:mt-[30px] text-center z-4">How We Deliver Accurate Betting Tips</p>
-                <p class="text-[14px] sm:text-[16px] font-[600] text-center w-full sm:w-[80%] md:w-[60%] z-4">By leveraging cutting-edge tools, expert insights, and data-driven strategies, we ensure our betting tips are reliable and impactful. Discover the key approaches that set us apart in the world of cricket betting.</p>
-                <div class="w-full sm:w-[90%] md:w-[80%] h-full flex flex-col gap-6 sm:gap-8 mt-[20px] sm:mt-[30px] py-4 z-2">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 px-2 sm:px-4">
-                        <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
-                            <div class="w-full flex flex-col gap-2">
-                                <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Comprehensive Data Analysis</p>
-                                <p class="text-[14px] font-[400]">Dive into in-depth statistics, historical trends, and player performances to deliver accurate predictions.</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
-                            <div class="w-full flex flex-col gap-2">
-                                <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Match Analysis</p>
-                                <p class="text-[14px] font-[400]">Dive deep into player performance, pitch conditions, and historical data to provide well-rounded insights.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 px-2 sm:px-4">
-                        <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
-                            <div class="w-full flex flex-col gap-2">
-                                <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Expert Panel Insights</p>
-                                <p class="text-[14px] font-[400]">Collaborate with seasoned cricket analysts and sports experts for reliable tips.</p>
-                            </div>
-                        </div>
-                        <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
-                            <div class="w-full flex flex-col gap-2">
-                                <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Real-Time Updates</p>
-                                <p class="text-[14px] font-[400]">Provide dynamic updates on matches, odds, and weather conditions to keep you ahead.</p>
-                            </div>
+            </div>
+            <div
+                class="absolute -bottom-[10%] left-0 h-[30%] w-full bg-gradient-to-b from-[#fff] via-white to-[#ffb98a] flex items-center justify-center">
+            </div>
+        </div>
+
+
+        <div
+            class="page7 md:mt-[50px] md:h-full md:w-full flex flex-col justify-center items-center relative overflow-hidden px-4 sm:px-8 md:px-12 lg:px-16">
+            <div
+                class="absolute md:-top-[50%] max-md:-bottom-[10%] max-md:-right-[40%] md:-right-[20%] h-[1000px] w-[440px] z-1 rotate-[200deg] bg-gradient-to-r from-[#ffb98a] to-[#fff]">
+            </div>
+            <p
+                class="font-bold italic text-[24px] sm:text-[28px] md:text-[32px] mt-[20px] sm:mt-[30px] text-center z-4">
+                How We Deliver Accurate Betting Tips</p>
+            <p class="text-[14px] sm:text-[16px] font-[600] text-center w-full sm:w-[80%] md:w-[60%] z-4">By
+                leveraging cutting-edge tools, expert insights, and data-driven strategies, we ensure our betting
+                tips are reliable and impactful. Discover the key approaches that set us apart in the world of
+                cricket betting.</p>
+            <div
+                class="w-full sm:w-[90%] md:w-[80%] h-full flex flex-col gap-6 sm:gap-8 mt-[20px] sm:mt-[30px] py-4 z-2">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 px-2 sm:px-4">
+                    <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
+                        <div class="w-full flex flex-col gap-2">
+                            <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Comprehensive Data
+                                Analysis</p>
+                            <p class="text-[14px] font-[400]">Dive into in-depth statistics, historical trends, and
+                                player performances to deliver accurate predictions.</p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 px-2 sm:px-4">
-                        <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
-                            <div class="w-full flex flex-col gap-2">
-                                <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Player and Team Evaluations</p>
-                                <p class="text-[14px] font-[400]">Assess individual player stats, team dynamics, and form to give you an edge in betting.</p>
-                            </div>
+                    <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
+                        <div class="w-full flex flex-col gap-2">
+                            <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Match Analysis</p>
+                            <p class="text-[14px] font-[400]">Dive deep into player performance, pitch conditions,
+                                and historical data to provide well-rounded insights.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-
-            <div class="page8 mt-6 md:mt-[50px] w-full flex flex-col justify-center items-center relative overflow-hidden px-4">
-                <div class="w-full sm:w-[80%] md:w-[60%] lg:w-[50%] mt-6 md:mt-[50px] md:rounded-[40px] max-md:rounded-[20px] border border-[#FF6500] flex flex-col justify-center items-center py-8 md:py-10 relative overflow-hidden bg-radial from-[#fff] to-[#ffb98a] shadow-xl">
-                    <img class="absolute -bottom-[15%] -left-[8%] w-[250px] md:w-[400px] opacity-50" src="image/form-down.png" alt="">
-                    <img class="absolute -bottom-[15%] -right-[8%] w-[250px] md:w-[400px] opacity-20" src="image/form-right.png" alt="">
-                    
-                    <p class="font-[700] text-[24px] md:text-[32px] italic text-center">Stay Ahead in the Game!!</p>
-                    <p class="font-[400] text-[14px] md:text-[16px] text-center w-[90%] md:w-[70%] mt-3">Subscribe to our newsletter and get exclusive betting tips, latest match updates, and unbeatable promo codes delivered straight to your inbox. Don’t miss out on the action—join our cricket betting community today!</p>
-                    
-                    <form class="w-full sm:w-[80%] md:w-[50%] flex flex-col gap-4 mt-6 md:mt-[40px] z-3 px-2">
-                        <div class="flex flex-col gap-2">
-                            <label class="font-[500] text-[14px] md:text-[16px] text-[#0B192C]" for="name">Your Name</label>
-                            <div class="bg-[#ffb98a] p-2 flex justify-center items-center gap-2 rounded-[6px] border border-[#FF6500]">
-                                <i class="ri-user-3-fill"></i>
-                                <input class="h-full w-full text-[#0B192C] outline-none bg-transparent" type="text" placeholder="Enter your name">
-                            </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 px-2 sm:px-4">
+                    <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
+                        <div class="w-full flex flex-col gap-2">
+                            <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Expert Panel
+                                Insights</p>
+                            <p class="text-[14px] font-[400]">Collaborate with seasoned cricket analysts and sports
+                                experts for reliable tips.</p>
                         </div>
-                        <div class="flex flex-col gap-2">
-                            <label class="font-[500] text-[14px] md:text-[16px] text-[#0B192C]" for="email">Your E-mail</label>
-                            <div class="bg-[#ffb98a] p-2 flex justify-center items-center gap-2 rounded-[6px] border border-[#FF6500]">
-                                <i class="ri-mail-fill"></i>
-                                <input class="h-full w-full text-[#0B192C] outline-none bg-transparent" type="email" placeholder="Enter your email address">
-                            </div>
+                    </div>
+                    <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
+                        <div class="w-full flex flex-col gap-2">
+                            <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Real-Time Updates
+                            </p>
+                            <p class="text-[14px] font-[400]">Provide dynamic updates on matches, odds, and weather
+                                conditions to keep you ahead.</p>
                         </div>
-                        <button class="text-[#fff] p-2 bg-[#0B192C] rounded-[6px] text-[16px] font-[600] mt-4 md:mt-[10px]">Subscribe Now</button>
-                    </form>
-                    
-                    <p class="text-[12px] md:text-[14px] font-[500] italic text-[#262626] mt-4 md:mt-[20px] z-4 text-center">"We respect your privacy. Your information is safe with us and will never be shared."</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 px-2 sm:px-4">
+                    <div class="flex p-4 border border-[#FF6500] rounded-[20px]">
+                        <div class="w-full flex flex-col gap-2">
+                            <p class="font-bold text-[20px] sm:text-[24px] italic text-[#0B192C]">Player and Team
+                                Evaluations</p>
+                            <p class="text-[14px] font-[400]">Assess individual player stats, team dynamics, and
+                                form to give you an edge in betting.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
+        </div>
 
-            <div class="w-full h-full relative overflow-hidden p-4 mt-[20px]">
-                <div
-                    class="absolute -top-[60%] -left-[15%] h-[980px] w-[440px]  z-1 rotate-[40deg] bg-linear-to-r from-[#ffb98a] to-[#fff]">
-                </div>
-                <!-- <div>
+
+        <div
+            class="page8 mt-6 md:mt-[50px] w-full flex flex-col justify-center items-center relative overflow-hidden px-4">
+            <div
+                class="w-full sm:w-[80%] md:w-[60%] lg:w-[50%] mt-6 md:mt-[50px] md:rounded-[40px] max-md:rounded-[20px] border border-[#FF6500] flex flex-col justify-center items-center py-8 md:py-10 relative overflow-hidden bg-radial from-[#fff] to-[#ffb98a] shadow-xl">
+                <img class="absolute -bottom-[15%] -left-[8%] w-[250px] md:w-[400px] opacity-50"
+                    src="image/form-down.png" alt="">
+                <img class="absolute -bottom-[15%] -right-[8%] w-[250px] md:w-[400px] opacity-20"
+                    src="image/form-right.png" alt="">
+
+                <p class="font-[700] text-[24px] md:text-[32px] italic text-center">Stay Ahead in the Game!!</p>
+                <p class="font-[400] text-[14px] md:text-[16px] text-center w-[90%] md:w-[70%] mt-3">Subscribe to
+                    our newsletter and get exclusive betting tips, latest match updates, and unbeatable promo codes
+                    delivered straight to your inbox. Don’t miss out on the action—join our cricket betting
+                    community today!</p>
+
+                <form class="w-full sm:w-[80%] md:w-[50%] flex flex-col gap-4 mt-6 md:mt-[40px] z-3 px-2">
+                    <div class="flex flex-col gap-2">
+                        <label class="font-[500] text-[14px] md:text-[16px] text-[#0B192C]" for="name">Your
+                            Name</label>
+                        <div
+                            class="bg-[#ffb98a] p-2 flex justify-center items-center gap-2 rounded-[6px] border border-[#FF6500]">
+                            <i class="ri-user-3-fill"></i>
+                            <input class="h-full w-full text-[#0B192C] outline-none bg-transparent" type="text"
+                                placeholder="Enter your name">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="font-[500] text-[14px] md:text-[16px] text-[#0B192C]" for="email">Your
+                            E-mail</label>
+                        <div
+                            class="bg-[#ffb98a] p-2 flex justify-center items-center gap-2 rounded-[6px] border border-[#FF6500]">
+                            <i class="ri-mail-fill"></i>
+                            <input class="h-full w-full text-[#0B192C] outline-none bg-transparent" type="email"
+                                placeholder="Enter your email address">
+                        </div>
+                    </div>
+                    <button
+                        class="text-[#fff] p-2 bg-[#0B192C] rounded-[6px] text-[16px] font-[600] mt-4 md:mt-[10px]">Subscribe
+                        Now</button>
+                </form>
+
+                <p
+                    class="text-[12px] md:text-[14px] font-[500] italic text-[#262626] mt-4 md:mt-[20px] z-4 text-center">
+                    "We respect your privacy. Your information is safe with us and will never be shared."</p>
+            </div>
+        </div>
+
+
+        <div class="w-full h-full relative overflow-hidden p-4 mt-[20px]">
+            <div
+                class="absolute -top-[60%] -left-[15%] h-[980px] w-[440px]  z-1 rotate-[40deg] bg-linear-to-r from-[#ffb98a] to-[#fff]">
+            </div>
+            <!-- <div>
                     <img class="absolute -top-[12%] left-[45%] w-[15%] opacity-50" src="image/blur.png" alt="">
                 </div> -->
-                <div
-                    class="absolute -bottom-[40%] -right-[15%] h-[980px] w-[440px] bg-blue-200 z-1 rotate-[200deg] bg-linear-to-r from-[#ffb98a] to-[#fff]">
-                </div>
-                <footer class="md:h-[350px] max-md:h-full w-full z-3 mx-auto rounded-[18px] bg-white border border-[#FF6500] mt-[50px] relative flex flex-col lg:flex-row gap-10 p-6 lg:p-10">
-                    <img class="absolute md:left-[5%] max-md:left-[35%] max-md:-top-[4%] md:-top-[18%] w-[100px] sm:w-[120px] lg:w-auto" src="image/logo.png" alt="">
-                    <div class="w-full lg:w-[30%] h-full pt-[50px] px-4 sm:px-8 md:pb-4 flex flex-col max-md:gap-4 justify-between text-center lg:text-left">
-                        <p class="max-md:text-center">Discover the ultimate cricket betting experience with us! Bet confidently on your favorite matches, enjoy secure transactions, and unlock rewarding opportunities. Your trusted platform for all things cricket betting!</p>
-                        <p class="mt-4 lg:mt-0">© 2025 Bet On Cricket. All rights reserved.<br>Email: support@betoncricket.com</p>
-                    </div>
-                    <div class="w-full lg:w-[70%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:pt-[30px] max-md:pb-[180px]">
-                        <div class="flex flex-col gap-3 items-center lg:items-start">
-                            <p class="font-[700] text-[18px] italic text-[#FF6500]">Follow Us</p>
-                            <div class="social flex gap-3">
-                                <div class="h-[40px] w-[40px] flex justify-center items-center rounded-[10px] bg-[#ffb98a]">
-                                    <i class="ri-facebook-fill"></i>
-                                </div>
-                                <div class="h-[40px] w-[40px] flex justify-center items-center rounded-[10px] bg-[#ffb98a]">
-                                    <i class="ri-twitter-fill"></i>
-                                </div>
-                                <div class="h-[40px] w-[40px] flex justify-center items-center rounded-[10px] bg-[#ffb98a]">
-                                    <i class="ri-instagram-line"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-col gap-3 items-center lg:items-start">
-                            <p class="font-[700] text-[18px] italic text-[#FF6500]">Essential Information</p>
-                            <div class="flex flex-col gap-3">
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Betting Sites</p>
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Cricket</p>
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Promos & Offers</p>
-                            </div>
-                        </div>
-                        <div class="flex flex-col gap-3 items-center lg:items-start">
-                            <p class="font-[700] text-[18px] italic text-[#FF6500]">Quick links</p>
-                            <div class="flex flex-col gap-3">
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Cricket Betting Sites in India</p>
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Cricket Betting Apps in India</p>
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Crypto Betting Sites in India</p>
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Indian Cricket Betting Bonuses</p>
-                                <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Indian Cricket Betting Tips</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="absolute bottom-[10%] lg:bottom-[18%] max-md:bottom-[15%] right-[3%] h-[10px] w-[80%] lg:w-[440px] z-1 rotate-[180deg] bg-linear-to-r from-[#ffb98a] to-[#fff] rounded-full"></div>
-                    <div class="absolute bottom-[3%] right-[3%] max-md:right-[1%] flex flex-wrap gap-3 lg:gap-6 justify-center lg:justify-end w-full md:px-4 ">
-                        <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">About Us</p>
-                        <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">Contact Us</p>
-                        <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">FAQs</p>
-                        <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">Privacy Policy</p>
-                        <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">Terms & Conditions</p>
-                    </div>
-                </footer>
-                
+            <div
+                class="absolute -bottom-[40%] -right-[15%] h-[980px] w-[440px] z-1 rotate-[200deg] bg-linear-to-r from-[#ffb98a] to-[#fff]">
             </div>
+            <footer
+                class="md:h-[350px] max-md:h-full w-full z-3 mx-auto rounded-[18px] bg-white border border-[#FF6500] mt-[50px] relative flex flex-col lg:flex-row gap-10 p-6 lg:p-10">
+                <img class="absolute md:left-[5%] max-md:left-[35%] max-md:-top-[4%] md:-top-[18%] w-[100px] sm:w-[120px] lg:w-auto"
+                    src="image/logo.png" alt="">
+                <div
+                    class="w-full lg:w-[30%] h-full pt-[50px] px-4 sm:px-8 md:pb-4 flex flex-col max-md:gap-4 justify-between text-center lg:text-left">
+                    <p class="max-md:text-center">Discover the ultimate cricket betting experience with us! Bet
+                        confidently on your favorite matches, enjoy secure transactions, and unlock rewarding
+                        opportunities. Your trusted platform for all things cricket betting!</p>
+                    <p class="mt-4 lg:mt-0">© 2025 Bet On Cricket. All rights reserved.<br>Email:
+                        support@betoncricket.com</p>
+                </div>
+                <div
+                    class="w-full lg:w-[70%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:pt-[30px] max-md:pb-[180px]">
+                    <div class="flex flex-col gap-3 items-center lg:items-start">
+                        <p class="font-[700] text-[18px] italic text-[#FF6500]">Follow Us</p>
+                        <div class="social flex gap-3">
+                            <div class="h-[40px] w-[40px] flex justify-center items-center rounded-[10px] bg-[#ffb98a]">
+                                <i class="ri-facebook-fill"></i>
+                            </div>
+                            <div class="h-[40px] w-[40px] flex justify-center items-center rounded-[10px] bg-[#ffb98a]">
+                                <i class="ri-twitter-fill"></i>
+                            </div>
+                            <div class="h-[40px] w-[40px] flex justify-center items-center rounded-[10px] bg-[#ffb98a]">
+                                <i class="ri-instagram-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3 items-center lg:items-start">
+                        <p class="font-[700] text-[18px] italic text-[#FF6500]">Essential Information</p>
+                        <div class="flex flex-col gap-3">
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Betting Sites</p>
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Cricket</p>
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Promos & Offers
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3 items-center lg:items-start">
+                        <p class="font-[700] text-[18px] italic text-[#FF6500]">Quick links</p>
+                        <div class="flex flex-col gap-3">
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Cricket
+                                Betting Sites in India</p>
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Cricket
+                                Betting Apps in India</p>
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Crypto
+                                Betting Sites in India</p>
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Best Indian
+                                Cricket Betting Bonuses</p>
+                            <p class="hover:text-[#FF6500] font-[600] text-[#0B192C] text-[16px]">Indian Cricket
+                                Betting Tips</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="absolute bottom-[10%] lg:bottom-[18%] max-md:bottom-[15%] right-[3%] h-[10px] w-[80%] lg:w-[440px] z-1 rotate-[180deg] bg-linear-to-r from-[#ffb98a] to-[#fff] rounded-full">
+                </div>
+                <div
+                    class="absolute bottom-[3%] right-[3%] max-md:right-[1%] flex flex-wrap gap-3 lg:gap-6 justify-center lg:justify-end w-full md:px-4 ">
+                    <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">
+                        About Us</p>
+                    <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">
+                        Contact Us</p>
+                    <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">
+                        FAQs</p>
+                    <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">
+                        Privacy Policy</p>
+                    <p class="text-[16px] font-[600] bg-[#ffb98a] rounded-full px-4 py-2 text-[#000] text-center">
+                        Terms & Conditions</p>
+                </div>
+            </footer>
+
+        </div>
 
         </div>
     </main>
 
     <script>
         // Toggle Mobile Menu
-        document.getElementById("menu-btn").addEventListener("click", function() {
+        document.getElementById("menu-btn").addEventListener("click", function () {
             document.getElementById("mobile-menu").classList.toggle("hidden");
         });
     </script>
